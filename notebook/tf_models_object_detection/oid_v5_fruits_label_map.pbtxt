@@ -1,0 +1,21 @@
+item {
+  name: "/m/014j1m"
+  id: 1
+  display_name: "Apple"
+}
+item {
+  name: "/m/0cyhj_"
+  id: 2
+  display_name: "Orange"
+}
+item {
+  name: "/m/07fbm7"
+  id: 3
+  display_name: "Strawberry"
+}
+item {
+  name: "/m/09qck"
+  id: 4
+  display_name: "Banana"
+}
+
