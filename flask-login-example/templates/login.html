@@ -1,0 +1,14 @@
+<!-- エラーメッセージの表示 -->
+{% for field, errors in form.errors.items() %}
+  <p style="color:red">{{ form[field].label }}: {{ ', '.join(errors) }}
+{% endfor %}
+
+<!-- ログインフォーム -->
+<form id="login-form" method="post">
+  {{ form.csrf_token }}
+  <p><label for="user_id">user id</label>
+  {{ form.user_id }}
+  <p><label for="password">password</label>
+  {{ form.password }}
+  <p><button type="submit">sign in</button>
+</form>
